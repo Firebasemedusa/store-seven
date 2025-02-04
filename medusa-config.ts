@@ -21,7 +21,8 @@ module.exports = defineConfig({
     vite: () => {
       return {
         server: {
-          allowedHosts: [".e0c0-2001-558-1401-10-00-2baf.ngrok-free.app"],
+          // allowedHosts: [".e0c0-2001-558-1401-10-00-2baf.ngrok-free.app"],
+          allowedHosts: [".medcuh252g5iop060oe8p20.nomodo.app"],
         },
       };
     },
